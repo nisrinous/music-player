@@ -1,0 +1,24 @@
+name: iOS Build and Test
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Build and Test iOS App
+    runs-on: macos-13
+
+    steps:
+      - name: Set up Xcode
+        uses: actions/checkout@v3
+
+      - name: Build the app
+        run: xcodebuild -project MusicPlayer.xcodeproj -scheme MusicPlayer -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone SE (3rd generation),OS=17.5' build
+
+      - name: Run Unit Tests
+        run: xcodebuild test -scheme MusicPlayer -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone SE (3rd generation),OS=17.5'
