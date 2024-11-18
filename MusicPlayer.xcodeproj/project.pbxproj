@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E02C7ED32CEAF3B600DC0584 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E02C7ED22CEAF3A900DC0584 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		E02C7EAE2CEAEE4900DC0584 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		E02C7E9D2CEAEE4700DC0584 /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E02C7EAD2CEAEE4900DC0584 /* MusicPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E02C7EB72CEAEE4900DC0584 /* MusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E02C7ED22CEAF3A900DC0584 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		E02C7E942CEAEE4700DC0584 = {
 			isa = PBXGroup;
 			children = (
+				E02C7ED22CEAF3A900DC0584 /* .gitignore */,
 				E02C7E9F2CEAEE4700DC0584 /* MusicPlayer */,
 				E02C7EB02CEAEE4900DC0584 /* MusicPlayerTests */,
 				E02C7EBA2CEAEE4900DC0584 /* MusicPlayerUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E02C7ED32CEAF3B600DC0584 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

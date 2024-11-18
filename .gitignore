@@ -1,0 +1,26 @@
+# Xcode
+DerivedData/
+build/
+xcuserdata/
+.idea/
+*.xccheckout
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/*
+
+# Swift Package Manager
+/.build/
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/
+
+# SwiftPM build artifacts
+.build/
+
+# User-specific files
+*.swp
+*.swo
+
+# macOS system files
+.DS_Store
